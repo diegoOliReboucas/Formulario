@@ -1,0 +1,76 @@
+body{
+  background: rgba(0, 0, 100, 0.6) url(
+    ./img.jpg
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: 10px -190px;
+}
+
+.primeiraParte{
+  margin-top: 50px;
+  margin-left: 15%;
+  font-size: 1.35rem;
+  color: white;
+}
+.primeiroH3 {
+  margin-left: 220px;
+}
+.primeiroP{
+  margin-left: 130px;
+}
+
+section{
+  padding: 40px;
+  margin-left: 20%;
+  background: black;
+  width: 600px;
+  justify-content: center;
+  filter: opacity(.7);
+  color: white;
+  border-radius: 5px;
+}
+.inputText {
+  padding: 7px;
+  margin-top: 10px;
+  width: 580px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  margin-top: 10px;
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.inputRadio {
+  margin-top: 8px;
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.inputCheck{
+  margin-top: 5px;
+  width: 1.15em;
+  height: 1.15em;
+}
+
+textarea{
+  margin-top: 10px;
+  padding: 10px;
+  width: 580px;
+}
+
+.inputButton{
+  width: 603px;
+  height: 40px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

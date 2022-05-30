@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <div class="primeiraParte">
+    <h3 class="primeiroH3">freeCodeCamp Survey Form</h3>
+    <p class="primeiroP">Thank you for taking the time to help us improve the platform</p>
+  </div>
+
+
+  <section>
+    <label for="name">Name</label><br>
+    <input class="inputText" type="text" id="name" placeholder="Enter your name" required>
+    <p></p>
+    <label for="email">Email</label><br>
+    <input class="inputText" type="email" id="email" placeholder="Enter your Email" required>
+    <p></p>
+    <label for="age">Age (optional)</label><br>
+    <input class="inputText" type="number" id="age" placeholder="Age">
+    <p></p>
+    <label for="currentRole">Which option best describes your current role?</label><br>
+    <select name="currentRole" id="currentRole">
+      <option value="Select Current Role">Select Current Role</option>
+      <option value="Student">Student</option>
+      <option value="Full Time Job">Full Time Job</option>
+      <option value="Full Time Learning">Full Time Learner</option>
+      <option value="Prefer not to say">Prefer not to say</option>
+      <option value="Other">Other</option>
+    </select>
+    <br><br>
+    <label>Would you recommend freeCodeCamp to a friend?</label><br>
+    <input class="inputRadio" type="radio" id="definitely" name="recommend">
+    <label class="labelRadio" for="definitely">Definitely</label><br>
+    <input class="inputRadio" type="radio" id="Maybe" name="recommend">
+    <label class="labelRadio" for="Maybe">Maybe</label><br>
+    <input class="inputRadio" type="radio" id="notSure" name="recommend">
+    <label class="labelRadio" for="notSure">Not Sure</label>
+    <p></p><br>
+    <label for="favoriteFeature">What is your favorite feature of freeCodeCamp?</label><br>
+    <select name="favoriteFeature" id="favoriteFeature">
+      <option value="selectAnOpition">Select an Option</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="openSource">Open Source</option>
+    </select>
+    <p></p>
+    <label>What would you like to see improved? (Check all that apply)</label>
+    <br>
+    <input class="inputCheck" type="checkbox" id="frontEnd" name="improved1">
+    <label for="frontEnd">Front-end Projects</label><br>
+    <input class="inputCheck" type="checkbox" id="backEnd" name="improved2">
+    <label for="backEnd">Back-end Projects</label><br>
+    <input class="inputCheck" type="checkbox" id="dataVisualization" name="improved3">
+    <label for="dataVisualization">Data Visualization</label><br>
+    <input class="inputCheck" type="checkbox" id="challenges" name="improved4">
+    <label for="challenges">Challenges</label><br>
+    <input class="inputCheck" type="checkbox" id="openSource" name="improved5">
+    <label for="openSource">Open Source Community</label><br>
+    <input class="inputCheck" type="checkbox" id="gitterHelp" name="improved6">
+    <label for="gitterHelp">Gitter Help rooms</label><br>
+    <input class="inputCheck" type="checkbox" id="videos" name="improved7">
+    <label for="videos">Videos</label><br>
+    <input class="inputCheck" type="checkbox" id="cityMeetups" name="improved8">
+    <label for="cityMeetups">City Meetups</label><br>
+    <input class="inputCheck" type="checkbox" id="wiki" name="improved9">
+    <label for="wiki">Wiki</label><br>
+    <input class="inputCheck" type="checkbox" id="forum" name="improved10">
+    <label for="forum">Forum</label><br>
+    <input class="inputCheck" type="checkbox" id="additionalCourses" name="improved11">
+    <label for="additionalCourses">Additional Courses</label><br>
+    <p></p>
+    <label for="comment">Any comments or suggestions?</label><br>
+    <textarea name="comment" id="comment" rows="8" placeholder="Enter your comment here..."></textarea>
+    <p></p>
+    <input class="inputButton" type="button" value="Submit">
+  </section>
+</body>
+
+</html>
